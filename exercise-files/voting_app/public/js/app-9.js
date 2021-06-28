@@ -30,6 +30,18 @@ class ProductList extends React.Component {
       products: nextProducts,
     });
   }
+  
+  // handleProductUpVote(productId) { 
+  //   const products = this.state.products;
+  //   products.forEach((product) => {
+  //     if (product.id === productId) {
+  //       product.votes = product.votes + 1;
+  //   } });
+  //   this.setState({
+  //     products: products,
+  //   });
+  // }
+    
 
   render() {
     const products = this.state.products.sort((a, b) => (
